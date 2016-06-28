@@ -11,9 +11,9 @@
 html, body, div{
     margin: 0 !important;
     padding: 0 !important;
-    max-width:100%;
+    max-width:100%  !important;
     overflow-x:hidden !important;
-    
+   
 }
 
 
@@ -34,6 +34,8 @@ ul,li {
 *******************************************/
 
 .nav{
+  max-width:100%  !important;
+  overflow-x:hidden !important;
   background-color:rgb(0,65,65)!important;
   border-color:rgb(0,65,65)!important;
   
@@ -51,6 +53,9 @@ ul,li {
 
 }
 
+.last-li{
+  padding-right: 1em;
+}
 /***************************
             home
 ****************************/
@@ -144,7 +149,10 @@ footer{
   border-style:solid;
   border-color:rgb(0,65,65);
 	padding-bottom: .25em;
-	
+	padding-right: -1em !important;
+}
+footer.row{
+  padding-right: -1em !important;
 }
 .foot_nav {
 	margin: 2em
@@ -353,3 +361,12 @@ background: rgba(255, 255, 255, 0.6);
 }
   
 }
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+*/

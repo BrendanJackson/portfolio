@@ -1,12 +1,9 @@
 <?php 
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-ini_set("html_errors", 1);
 
 include("inc/header.php");
 ?>
-  
-	<div class="home blocks row">
+ 
+	<div class="home blocks "><!--row-->
     <h1 class="home_text white"><a name="home"></a>Brendan Jackson</h1>
 	
 		<br><br>
@@ -24,14 +21,15 @@ include("inc/header.php");
 			
 	</div><!--/home-->
 
-	<div class="about blocks row"> <!-- -->
+
+	<div class="about blocks row"> 
         
         <div class="about-layout1 col-lg-7">
             <p class="about-head white"><a name="about"></a>Brendan Jackson</p>
                 <p class="about-text white">
                 I'm a freelance web developer currently living in Lexington, KY. <br>
                 Skills: HTML, CSS, Javascript, jQuery&amp;jQueryUI, Bootstrap, GitHub, Drupal, Wordpress, PHP(working on laravel) & SQL <br>
-                Proficiency:Microsoft, Linux(fedora & Ubuntu), & Mac Operating systems and programs.
+                Proficiency:Microsoft, Linux(fedora &amp; Ubuntu),  &amp; Mac Operating systems and programs.
             </p>
         </div>	<!--about-layout1-->
         
@@ -43,9 +41,9 @@ include("inc/header.php");
              
 	</div><!--/about-->
 
-	<div id="portfolio" class="row"> 	<!-- was container -->
+    <div id="portfolio" class="row">    <!-- was container -->
 
-     <!-- <div class="portfolio-content  "><!--was container"-->
+      <div class="portfolio-content  "><!--was container"-->
 
             <div class="portfolio-header">
                 <div class="col-lg-12 text-center"> <!--  -->
@@ -67,7 +65,7 @@ include("inc/header.php");
                     </a>
                     <div class="portfolio-caption white">
                         <h4>Candy Mountain Music Gallery demo</h4>
-                        <p class="text-muted white">jQuery & Blueprint</p>
+                        <p class="text-muted white">jQuery &amp; Blueprint</p>
                     </div>
                 </div>
                 <!-- End of Portfolio img1 -->
@@ -100,8 +98,8 @@ include("inc/header.php");
                         <img src="http://s19.postimg.org/hck8d8usj/Screenshot_from_2016_04_03_18_51_10.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption white">
-                        <h4>jQuery Playground</h4>
-                        <p id="" class="text-muted white">jQuery and bootstrap (exploring CSS commands with JS)</p>
+                        <h4>jQuery Playground &amp; rock Paper Scissors</h4>
+                        <p id="" class="text-muted white">jQuery, bootstrap, and Vanilla JS</p>
                     </div>
                 </div>
                 <!-- End of Portfolio img3 -->
@@ -125,17 +123,17 @@ include("inc/header.php");
 
                 <!-- Portfolio img5 -->
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="/links/rock-paper-scissors/index.html" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <a href="/links/login/index.php" target="_blank" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
 
                             </div>
                         </div>
-                        <img src="http://s19.postimg.org/awvzij4yr/Screenshot_from_2016_04_17_20_43_40.png" class="img-responsive" alt="">
+                        <img src="https://s32.postimg.org/94fysrpcl/Screenshot_from_2016_06_23_11_12_56.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption white">
-                        <h4>Rock Paper Scissors </h4>
-                        <p id="" class="text-muted white">Vanilla JS</p>
+                        <h4>Registration, Login, &amp; Member Info</h4>
+                        <p id="" class="text-muted white">PHP, MySql, &amp; Bootstrap</p>
                     </div>
                 </div>
                 <!-- End of Portfolio img5 -->
@@ -152,7 +150,7 @@ include("inc/header.php");
                     </a>
                     <div class="portfolio-caption white">
                         <h4>Genghis Khan Tribute</h4>
-                        <p id="" class="text-muted white">HTML & CSS</p>
+                        <p id="" class="text-muted white">HTML &amp; CSS</p>
                     </div>
                 </div>
                 <!-- End of Portfolio img6 -->
@@ -160,7 +158,8 @@ include("inc/header.php");
 
         <!--</div> -->
 
-    </div><!--/portfolio-->
+    </div>
+<!--/portfolio-->
 
 	<div id="contact" class="blocks row">
 	

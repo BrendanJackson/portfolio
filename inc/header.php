@@ -8,12 +8,12 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <body class="container-fluid">
 
-<nav class="navbar navbar-default navbar-fixed-top nav">
+<nav class="navbar  navbar-fixed-top nav"> <!--navbar-default-->
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -38,7 +38,7 @@
         <li><a href="#portfolio"><span class="white">Portfolio</span></a></li>
         
         <li><a href="#contact"><span class="white">Contact</span></a></li>
-        
+          <!--class="last-li"-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!--end container-->
