@@ -1,16 +1,18 @@
-</div><!-- end content -->
+<!-- </div> --><!-- end content -->
 
 
-
-	<!--footer-->
-	<footer class="row">
-		<ul class="foot_nav">
-          <li><a href="#" class="home_button"> <span class="white">Home</span> </a></li>
-          <li><a href="#" class="about_button"> <span class="white">About</span> </a></li>
-          <li><a href="#" class="portfolio_button"> <span class="white">Portfolio</span> </a></li>
-          <li><a href="#" class="contact_button"> <span class="white">Contact</span> </a></li>
-		</ul>
-	</footer>
+<footer class="container-fluid">
+    <div class="footer row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul class="foot-nav">
+              <li><a href="#" class="home_button btn btn-default  btn-md"> <span class="text-style">Home</span> </a></li>
+              <li><a href="#" class="about_button btn btn-default  btn-md"> <span class="text-style">About</span> </a></li>
+              <li><a href="#" class="portfolio_button btn btn-default  btn-md"> <span class="text-style">Portfolio</span> </a></li>
+              <li><a href="#" class="contact_button btn btn-default  btn-md"> <span class="text-style">Contact</span> </a></li>
+            </ul>
+        </div>
+    </div>
+</footer> <!--footer-->
 
 </body>
 </html>
